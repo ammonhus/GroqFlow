@@ -1,0 +1,8 @@
+.build/
+.DS_Store
+*.xcodeproj
+dist/
+
+# Signing private key material — never commit
+scripts/signing/*.p12
+scripts/signing/*.pem
